@@ -93,7 +93,7 @@ const MasterPlan = ({ setIsOpen }) => {
                   </a>
                   <div className="p-6 text-center border-t border-gray-100 bg-white">
                     <h4 className="text-[22px] text-[#3D5915] font-semibold mb-4">{plan.label}</h4>
-                    <p className="text-[15px] text-gray-600"><span className="font-semibold text-gray-800">Size </span><br/><span className="text-[17px] font-bold text-[#3D5915] inline-block mt-1">{plan.details.superBuiltUp}</span></p>
+                    {/* <p className="text-[15px] text-gray-600"><span className="font-semibold text-gray-800">Size </span><br/><span className="text-[17px] font-bold text-[#3D5915] inline-block mt-1">{plan.details.superBuiltUp}</span></p> */}
                   </div>
                 </div>
               ))}

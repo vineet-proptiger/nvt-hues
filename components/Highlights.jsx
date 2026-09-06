@@ -39,9 +39,9 @@ const Highlights = ({ setIsOpen }) => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
               </div>
-              <h3 className="text-[18px] sm:text-[19px] font-bold mb-2 text-gray-900" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Spacious Units from 1,925 sq.ft.</h3>
+              <h3 className="text-[18px] sm:text-[19px] font-bold mb-2 text-gray-900" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Spacious Units from 3,283 sq.ft.</h3>
               <p className="text-gray-600 text-[13.5px] sm:text-[14.5px] leading-[1.65]">
-                  Experience grand living spaces starting from 1,925 sq.ft. onwards, thoughtfully designed to maximize natural light and ensure cross-ventilation.
+                  Experience grand living spaces starting from 3,283 sq.ft. onwards, thoughtfully designed to maximize natural light and ensure cross-ventilation.
               </p>
           </div>
 
@@ -78,9 +78,9 @@ const Highlights = ({ setIsOpen }) => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                   </svg>
               </div>
-              <h3 className="text-[18px] sm:text-[19px] font-bold mb-2 text-gray-900" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Possession by December 2028</h3>
+              <h3 className="text-[18px] sm:text-[19px] font-bold mb-2 text-gray-900" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Possession by December 2030</h3>
               <p className="text-gray-600 text-[13.5px] sm:text-[14.5px] leading-[1.65]">
-                  Stay assured with a clear timeline. The project is advancing smoothly towards timely delivery with expected handover scheduled for December 2028.
+                  Stay assured with a clear timeline. The project is advancing smoothly towards timely delivery with expected handover scheduled for December 2030.
               </p>
           </div>
 

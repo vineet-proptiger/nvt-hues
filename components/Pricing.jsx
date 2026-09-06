@@ -124,8 +124,8 @@ const Pricing = ({ setIsOpen }) => {
 
               {/* Size Pill */}
               {/* <div className="mb-6 px-4 py-1 rounded-full bg-[#f4f9ee] border border-[#d6e8c0] text-[11.5px] font-bold text-[#2d4212] tracking-wide shadow-xs">
-                📐 Super Built-up: <span className="text-gray-900 font-extrabold">{unit.size}</span> */}
-              </div>
+                📐 Super Built-up: <span className="text-gray-900 font-extrabold">{unit.size}</span>
+              </div> */}
 
               {/* Price Pedestal */}
               <div className="text-center mb-7 w-full py-4 px-4 rounded-2xl bg-gradient-to-b from-[#f9fbf6] to-[#f0f7e8] border border-[#e1ecda]">
