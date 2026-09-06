@@ -27,7 +27,7 @@ const Footer = () => (
         </div>
         <p style={{ fontSize: '15px', color: '#fff', fontFamily: 'var(--font-poppins), sans-serif', lineHeight: 1.8, marginBottom: '24px', textAlign: 'justify' }}
           data-aos="fade-in" data-aos-delay="100">
-          NVT, established in 1986, is one of India's premier real estate developers with over 30 years of experience. The group has a strong presence across Bengaluru, Chennai, Hyderabad, and Mysuru, delivering landmark residential, commercial, retail, and hospitality projects. NVT is known for its commitment to quality, innovation, and customer-centric approach.
+          NVT Quality Lifestyle is a professionally managed real estate company dedicated to developing high-end residential projects. The company is part of the NVT Group established in 1995. NVT Quality Lifestyle is run by professionals who are alumni from IIT, Carnegie Mellon, Purdue and Wharton.
         </p>
         
         {/* RERA Block */}
