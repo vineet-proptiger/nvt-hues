@@ -59,7 +59,7 @@ const Overview = ({ setIsOpen }) => {
             className="relative p-6 sm:p-8 rounded-2xl shadow-[0_12px_36px_rgba(48,64,23,0.18)] overflow-hidden flex-1 flex flex-col justify-between" 
             style={{ background: '#304017' }}
           >
-            <div style={isExpanded ? {} : { display: '-webkit-box', WebkitLineClamp: '7', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+            <div>
               <p style={{ fontSize: '15.5px', fontFamily: '"Poppins", sans-serif', color: '#E5EDDC', textAlign: 'justify', lineHeight: '1.85', margin: 0 }}>
                 <span 
                   style={{ 
@@ -75,15 +75,21 @@ const Overview = ({ setIsOpen }) => {
                 >
                   N
                 </span>
-                <span style={{ fontWeight: '700', color: '#FFFFFF' }}>VT A Wonderful World – Eterna</span> is an exclusive enclave of luxury 4/5 BHK villas, thoughtfully crafted for those who value space, privacy, and natural living. Set across 10.5 acres within a master-planned township, this low-density development is nestled beside a breathtaking 300-acre lake, offering a rare blend of serenity and connectivity. Each villa is designed to welcome abundant daylight, seamless indoor-outdoor flow, and refined comfort—making everyday living feel calm, balanced, and truly elevated. This is where Earth, Water, Air, and Space find their rhythm again, shaping a way of life that feels natural and alive; reminding us that luxury isn't built, it's remembered.
-                
+                <span style={{ fontWeight: '700', color: '#FFFFFF' }}>VT A Wonderful World – Eterna</span> is an exclusive enclave of luxury 4/5 BHK villas, thoughtfully crafted for those who value space, privacy, and natural living. Set across 10.5 acres within a master-planned township, this low-density development is nestled beside a breathtaking 300-acre lake, offering a rare blend of serenity and connectivity.
+                {!isExpanded ? '... ' : ' '}
+                {isExpanded && (
+                  <span>
+                    Each villa is designed to welcome abundant daylight, seamless indoor-outdoor flow, and refined comfort—making everyday living feel calm, balanced, and truly elevated. This is where Earth, Water, Air, and Space find their rhythm again, shaping a way of life that feels natural and alive; reminding us that luxury isn't built, it's remembered.{' '}
+                  </span>
+                )}
                 <button 
                   onClick={() => setIsExpanded(!isExpanded)}
-                  className="text-[#95B325] hover:text-[#b4e03c] font-bold inline-flex items-center gap-1 transition-colors cursor-pointer ml-2"
+                  type="button"
+                  className="text-[#95B325] hover:text-[#b4e03c] font-bold inline-flex items-center gap-1 transition-colors cursor-pointer ml-1 select-none focus:outline-none"
                   style={{ fontSize: '15px' }}
                 >
-                  {isExpanded ? 'Read Less' : 'Read More'}
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transform transition-transform ${isExpanded ? 'rotate-180' : ''}`}>
+                  <span>{isExpanded ? 'Read Less' : 'Read More'}</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className={`transform transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}>
                     <polyline points="6 9 12 15 18 9"></polyline>
                   </svg>
                 </button>
