@@ -46,43 +46,20 @@ const Location = () => {
 
           {/* RIGHT — Architectural Transit Line Card (Concept 2 - Exact Original Size) */}
           <div className="w-full lg:w-[46%] lg:order-2" data-aos="fade-left" data-aos-duration="1000">
-            <div style={{
-              padding: '18px 24px',
-              borderRadius: '16px',
-              background: '#FFFFFF',
-              border: '1px solid #95B325',
-              boxShadow: '0 12px 32px rgba(0, 2, 66, 0.12)',
-              display: 'flex',
-              flexDirection: 'column',
-              height: '100%',
-              justifyContent: 'space-between',
-            }}>
+            <div 
+              className="p-3.5 sm:p-5 lg:px-6 lg:py-[18px] rounded-2xl bg-white border border-[#95B325] shadow-[0_12px_32px_rgba(0,2,66,0.12)] flex flex-col h-full justify-between"
+            >
               <div>
-                {/* Header Title */}
-                <div style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  paddingBottom: '10px',
-                  marginBottom: '14px',
-                  borderBottom: '2px solid #6E942A',
-                }}>
-                  <h3 style={{
-                    fontFamily: F_JOST,
-                    fontSize: '18px',
-                    fontWeight: '700',
-                    color: '#1A2024',
-                    letterSpacing: '0.04em',
-                    textTransform: 'uppercase',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '8px',
-                    margin: 0
-                  }}>
-                    <MapPin size={22} className="text-[#3D5915]" />
+                {/* Header Title & Origin Badge */}
+                <div className="flex flex-wrap items-center justify-between gap-y-2 gap-x-3 pb-2.5 mb-3.5 border-b-2 border-[#6E942A]">
+                  <h3 
+                    className="text-[14.5px] sm:text-[17px] font-bold text-[#1A2024] tracking-wide uppercase flex items-center gap-1.5 sm:gap-2 m-0"
+                    style={{ fontFamily: F_JOST }}
+                  >
+                    <MapPin size={20} className="text-[#3D5915] shrink-0" />
                     <span>SEAMLESS CONNECTIVITY</span>
                   </h3>
-                  <span className="text-[11px] font-bold text-[#6E942A] bg-[#edf7e2] px-2.5 py-0.5 rounded-full border border-[#c2e29c]">
+                  <span className="text-[11px] font-bold text-[#3D5915] bg-[#edf7e2] px-2.5 py-0.5 rounded-full border border-[#c2e29c] whitespace-nowrap shrink-0 inline-flex items-center gap-1 shadow-2xs">
                     📍 Origin: NVT Whispering Hues
                   </span>
                 </div>
