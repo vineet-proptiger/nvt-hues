@@ -109,7 +109,7 @@ const Location = () => {
                 <span className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-[#6E942A] animate-pulse"></span> Prime Gunjur Corridor
                 </span>
-                <span className="text-[#3D5915] font-bold">Bangalore East</span>
+                {/* <span className="text-[#3D5915] font-bold">Bangalore East</span> */}
               </div>
             </div>
           </div>
