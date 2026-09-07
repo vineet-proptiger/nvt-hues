@@ -105,12 +105,12 @@ const Location = () => {
               </div>
 
               {/* Bottom Micro Footer */}
-              <div className="mt-3 pt-2.5 border-t border-[#edf4e3] flex items-center justify-between text-[11px] text-gray-500 font-medium">
+              {/* <div className="mt-3 pt-2.5 border-t border-[#edf4e3] flex items-center justify-between text-[11px] text-gray-500 font-medium">
                 <span className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-[#6E942A] animate-pulse"></span> Prime Gunjur Corridor
                 </span>
-                {/* <span className="text-[#3D5915] font-bold">Bangalore East</span> */}
-              </div>
+                <span className="text-[#3D5915] font-bold">Bangalore East</span>
+              </div> */}
             </div>
           </div>
 
