@@ -410,16 +410,36 @@ const Navbar = ({ setIsOpen }) => {
           .nav-logo,
           .header_style2.sticky .nav-logo,
           .header_style2.scrolled-up-expanded .nav-logo {
-            height: 56px !important;
-            min-height: 56px !important;
-            max-width: 300px !important;
-            width: 100% !important;
+            height: 44px !important;
+            min-height: 44px !important;
+            max-width: 220px !important;
+            width: auto !important;
             display: block !important;
             opacity: 1 !important;
             visibility: visible !important;
             margin-left: 0 !important;
             transition: none !important;
             transform: none !important;
+          }
+
+          @media (max-width: 640px) {
+            .nav-logo,
+            .header_style2.sticky .nav-logo,
+            .header_style2.scrolled-up-expanded .nav-logo {
+              height: 36px !important;
+              min-height: 36px !important;
+              max-width: 180px !important;
+            }
+          }
+
+          @media (max-width: 380px) {
+            .nav-logo,
+            .header_style2.sticky .nav-logo,
+            .header_style2.scrolled-up-expanded .nav-logo {
+              height: 32px !important;
+              min-height: 32px !important;
+              max-width: 155px !important;
+            }
           }
           
           .mob_nav_trigger {
