@@ -190,7 +190,7 @@ const Navbar = ({ setIsOpen }) => {
         
         .header_style2 .header_navigation2 li a:hover,
         .header_style2.scrolled-up-expanded .header_navigation2 li a:hover {
-          color: #6E942A !important;
+          color: #CD9E4B !important;
         }
 
         /* Phone Button styling in Nav */
@@ -462,7 +462,7 @@ const Navbar = ({ setIsOpen }) => {
           
           .header_style2.sticky .mob_nav_trigger,
           .header_style2.scrolled-up-expanded .mob_nav_trigger {
-            background: #6E942A;
+            background: #CD9E4B;
             color: #ffffff;
           }
         }
@@ -536,7 +536,7 @@ const Navbar = ({ setIsOpen }) => {
           transition: color 0.3s;
         }
         .popup_menu ul li a:hover {
-          color: #6E942A;
+          color: #CD9E4B;
         }
 
         @keyframes Navbar_scale-in {
@@ -561,7 +561,7 @@ const Navbar = ({ setIsOpen }) => {
             
             <li className="navbar-logo">
               <a href="#" className="navbar-brand">
-                <img src={logoImages.main} alt="NVT Whispering Hues" className="nav-logo" />
+                <img src={logoImages.main} alt="A Life in Bloom by NVT" className="nav-logo" />
               </a>
             </li>
             
@@ -599,7 +599,7 @@ const Navbar = ({ setIsOpen }) => {
             <li><a href="#masterplan" onClick={() => setMobileOpen(false)}>Floor Plan</a></li>
             <li><a href="#location" onClick={() => setMobileOpen(false)}>Location</a></li>
             <li style={{ marginTop: '40px' }}>
-              <a href="tel:9718344024" style={{ color: '#6E942A', fontSize: '20px' }}>
+              <a href="tel:9718344024" style={{ color: '#CD9E4B', fontSize: '20px' }}>
                 <Phone size={20} style={{ display: 'inline', marginRight: '8px' }}/> 9718344024
               </a>
             </li>

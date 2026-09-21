@@ -14,32 +14,32 @@
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════
-   THEME VARIABLES — NVT Whispering Hues Gunjur Theme
+   THEME VARIABLES — A Life in Bloom by NVT Whitefield-Varthur Sarjapur East Bangalore Theme
    ═══════════════════════════════════════════════════════════════ */
 :root {
   /* ── Brand Leaf Green Theme (NVT Logo) ── */
-  --color-gold: #6E942A;        
-  --color-gold-light: #95B325;
-  --color-gold-dark: #4A6B19;
-  --color-gold-bg: rgba(110, 148, 42, 0.1);     
+  --color-gold: #CD9E4B;        
+  --color-gold-light: #DFB362;
+  --color-gold-dark: #A67D37;
+  --color-gold-bg: rgba(205, 158, 75, 0.1);     
 
   /* ── Brand Primary (Deep Nature Green) ── */
-  --color-brand: #3D5915;
-  --color-brand-hover: #2C420D;
-  --color-brand-light: rgba(61, 89, 21, 0.08);
+  --color-brand: #0B3A3D;
+  --color-brand-hover: #08282A;
+  --color-brand-light: rgba(11, 58, 61, 0.08);
 
   /* ── Text (nav links, headings) ── */
   --color-nav-text: #111111;
-  --color-heading-brown: #3D5915;
+  --color-heading-brown: #0B3A3D;
 
   /* ── Section Backgrounds ── */
-  --color-cream-bg: #F7FAF3;
-  --color-border-gold: #95B325;
+  --color-cream-bg: #EFE4CD;
+  --color-border-gold: #CD9E4B;
 
   /* ── Charcoal Gray Primary Palette ── */
-  --color-primary: #526057;
-  --color-primary-light: #728278;
-  --color-primary-dark: #323D36;
+  --color-primary: #0B3A3D;
+  --color-primary-light: #1B4A4D;
+  --color-primary-dark: #052022;
 
   --color-dark: #111111;
   --color-dark-mid: #222B26;
@@ -47,7 +47,7 @@
   /* ── Background Palette ── */
   --color-bg: #ffffff;
   --color-bg-light: #ffffff;
-  --color-bg-muted: #F7FAF3;
+  --color-bg-muted: #EFE4CD;
 
   /* ── Text Palette ── */
   --color-text: #222B26;
@@ -59,11 +59,11 @@
   --btn-radius-pill: 50px;
 
   /* ── Shadows ── */
-  --shadow-sm: 0 2px 8px rgba(110, 148, 42, 0.10);
-  --shadow-md: 0 8px 24px rgba(110, 148, 42, 0.16);
-  --shadow-lg: 0 20px 48px rgba(110, 148, 42, 0.20);
+  --shadow-sm: 0 2px 8px rgba(205, 158, 75, 0.10);
+  --shadow-md: 0 8px 24px rgba(205, 158, 75, 0.16);
+  --shadow-lg: 0 20px 48px rgba(205, 158, 75, 0.20);
   --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.07);
-  --color-shadow-inner: rgba(110, 148, 42, 0.10);
+  --color-shadow-inner: rgba(205, 158, 75, 0.10);
 }
 
 /* ─── Keyframes ─────────────────────────────────────────────── */
@@ -110,11 +110,11 @@
 
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(110, 148, 42, 0.5);
+    box-shadow: 0 0 0 0 rgba(205, 158, 75, 0.5);
   }
 
   50% {
-    box-shadow: 0 0 0 10px rgba(110, 148, 42, 0);
+    box-shadow: 0 0 0 10px rgba(205, 158, 75, 0);
   }
 }
 
@@ -144,11 +144,11 @@
 
   0%,
   100% {
-    border-color: rgba(110, 148, 42, 0.4);
+    border-color: rgba(205, 158, 75, 0.4);
   }
 
   50% {
-    border-color: rgba(110, 148, 42, 1);
+    border-color: rgba(205, 158, 75, 1);
   }
 }
 
@@ -301,7 +301,7 @@
 
   /* ── Theme selection ── */
   ::selection {
-    background: rgba(110, 148, 42, 0.15);
+    background: rgba(205, 158, 75, 0.15);
     color: var(--color-gold-dark);
   }
 }
@@ -328,7 +328,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 14px rgba(110, 148, 42, 0.35);
+    box-shadow: 0 4px 14px rgba(205, 158, 75, 0.35);
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -355,12 +355,12 @@
     color: var(--color-gold) !important;
     border-color: var(--color-gold);
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(110, 148, 42, 0.30);
+    box-shadow: 0 12px 28px rgba(205, 158, 75, 0.30);
   }
 
   .btn-gold:active {
     transform: translateY(0);
-    box-shadow: 0 4px 10px rgba(110, 148, 42, 0.20);
+    box-shadow: 0 4px 10px rgba(205, 158, 75, 0.20);
   }
 
   /* ══ OUTLINED RED BUTTON ══ */
@@ -390,7 +390,7 @@
     background: var(--color-gold) !important;
     color: #ffffff !important;
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(110, 148, 42, 0.30);
+    box-shadow: 0 12px 28px rgba(205, 158, 75, 0.30);
   }
 
   /* ══ DARK PRIMARY BUTTON (Now Gold Theme) ══ */
@@ -412,7 +412,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    box-shadow: 0 4px 14px rgba(110, 148, 42, 0.35);
+    box-shadow: 0 4px 14px rgba(205, 158, 75, 0.35);
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -422,12 +422,12 @@
     color: var(--color-gold) !important;
     border-color: var(--color-gold);
     transform: translateY(-3px);
-    box-shadow: 0 12px 28px rgba(110, 148, 42, 0.30);
+    box-shadow: 0 12px 28px rgba(205, 158, 75, 0.30);
   }
 
   .btn-primary:active {
     transform: translateY(0);
-    box-shadow: 0 4px 10px rgba(110, 148, 42, 0.20);
+    box-shadow: 0 4px 10px rgba(205, 158, 75, 0.20);
   }
 
   /* ══ BRAND BUTTON (Luxury Villas style) ══ */
@@ -472,7 +472,7 @@
     letter-spacing: 0.12em;
     font-weight: 700;
     box-shadow: none !important;
-    filter: drop-shadow(-4px 0 14px rgba(110, 148, 42, 0.28));
+    filter: drop-shadow(-4px 0 14px rgba(205, 158, 75, 0.28));
     border: 2px solid var(--color-brand) !important;
     transition: all 0.3s ease !important;
   }
@@ -512,21 +512,37 @@
     cursor: pointer !important;
   }
 
-  /* ══ GLOBAL BUTTON OVERRIDE (NVT Nature & Leaf Green) ══ */
-  .btn-gold, .btn-gold-outline, .btn-primary, .btn-brand {
-    background: #3D5915 !important;
+  /* ══ GLOBAL BUTTON OVERRIDE ══ */
+  .btn-gold, .btn-primary, .btn-brand {
+    background: #0B3A3D !important;
     color: #ffffff !important;
-    border-color: #3D5915 !important;
+    border: 1.5px solid #CD9E4B !important;
+    font-weight: 800 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(205, 158, 75, 0.15) !important;
+  }
+
+  .btn-gold-outline {
+    background: transparent !important;
+    color: #CD9E4B !important;
+    border: 1.5px solid #CD9E4B !important;
     font-weight: 800 !important;
     cursor: pointer !important;
     transition: all 0.3s ease !important;
   }
 
-  .btn-gold:hover, .btn-gold-outline:hover, .btn-primary:hover, .btn-brand:hover {
-    background: #6E942A !important;
+  .btn-gold:hover, .btn-primary:hover, .btn-brand:hover {
+    background: #CD9E4B !important;
     color: #ffffff !important;
-    border-color: #6E942A !important;
-    cursor: pointer !important;
+    border-color: #CD9E4B !important;
+    box-shadow: 0 6px 20px rgba(205, 158, 75, 0.3) !important;
+  }
+
+  .btn-gold-outline:hover {
+    background: #CD9E4B !important;
+    color: #ffffff !important;
+    border-color: #CD9E4B !important;
   }
 
   /* ══ SECTION TITLE ══ */
@@ -565,7 +581,7 @@
 
   .form-input:focus {
     border-color: var(--color-gold);
-    box-shadow: 0 0 0 3px rgba(110, 148, 42, 0.10), inset 0 1px 3px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 0 3px rgba(205, 158, 75, 0.10), inset 0 1px 3px rgba(0, 0, 0, 0.04);
   }
 
   .form-input::placeholder {
@@ -620,7 +636,7 @@
   .pricing-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-lg);
-    border-color: rgba(110, 148, 42, 0.25);
+    border-color: rgba(205, 158, 75, 0.25);
   }
 
   .pricing-card:hover::after {
@@ -643,7 +659,7 @@
 
   .highlight-card:hover {
     border-color: var(--color-gold);
-    box-shadow: 0 8px 28px rgba(110, 148, 42, 0.15);
+    box-shadow: 0 8px 28px rgba(205, 158, 75, 0.15);
     transform: translateY(-4px);
   }
 
@@ -665,7 +681,7 @@
     border-color: var(--color-gold);
     background: var(--color-gold-bg);
     color: var(--color-gold);
-    box-shadow: 0 0 0 6px rgba(110, 148, 42, 0.08);
+    box-shadow: 0 0 0 6px rgba(205, 158, 75, 0.08);
   }
 
   /* ══ SECTION WRAPPER — white card on diamond bg ══ */
@@ -676,37 +692,25 @@
     box-shadow: 0 4px 32px rgba(0, 0, 0, 0.06);
   }
 
-  /* ══ BUTTON CONCAVE NOTCH DESIGN ══ */
+  /* ══ ROUNDED BUTTON DESIGN ══ */
   .btn-gold, .btn-gold-outline, .btn-primary, .btn-brand, .btn-floating-tab {
-    border-radius: 0 !important;
-    -webkit-mask: 
-      radial-gradient(circle at 0 0, transparent 6px, black 6.5px) top left,
-      radial-gradient(circle at 100% 0, transparent 6px, black 6.5px) top right,
-      radial-gradient(circle at 0 100%, transparent 6px, black 6.5px) bottom left,
-      radial-gradient(circle at 100% 100%, transparent 6px, black 6.5px) bottom right;
-    -webkit-mask-size: 51% 51%;
-    -webkit-mask-repeat: no-repeat;
-    mask: 
-      radial-gradient(circle at 0 0, transparent 6px, black 6.5px) top left,
-      radial-gradient(circle at 100% 0, transparent 6px, black 6.5px) top right,
-      radial-gradient(circle at 0 100%, transparent 6px, black 6.5px) bottom left,
-      radial-gradient(circle at 100% 100%, transparent 6px, black 6.5px) bottom right;
-    mask-size: 51% 51%;
-    mask-repeat: no-repeat;
+    border-radius: 8px !important;
+    -webkit-mask: none !important;
+    mask: none !important;
   }
 
   /* Convert box-shadow to filter drop-shadow because mask clips box-shadow */
   .btn-gold, .btn-primary {
     box-shadow: none !important;
-    filter: drop-shadow(0 4px 10px rgba(110, 148, 42, 0.35));
+    filter: drop-shadow(0 4px 10px rgba(205, 158, 75, 0.35));
   }
   .btn-gold:hover, .btn-primary:hover, .btn-gold-outline:hover {
     box-shadow: none !important;
-    filter: drop-shadow(0 8px 20px rgba(110, 148, 42, 0.30));
+    filter: drop-shadow(0 8px 20px rgba(205, 158, 75, 0.30));
   }
   .btn-gold:active, .btn-primary:active {
     box-shadow: none !important;
-    filter: drop-shadow(0 2px 6px rgba(110, 148, 42, 0.20));
+    filter: drop-shadow(0 2px 6px rgba(205, 158, 75, 0.20));
   }
 }
 
@@ -731,7 +735,7 @@
   right: 0;
   z-index: 999;
   display: flex;
-  box-shadow: 0 -4px 20px rgba(110, 148, 42, 0.18);
+  box-shadow: 0 -4px 20px rgba(205, 158, 75, 0.18);
 }
 
 @media (min-width: 1024px) {
@@ -745,12 +749,12 @@ nav.fixed {
   background: rgba(255, 255, 255, 0.96) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(110, 148, 42, 0.08);
+  border-bottom: 1px solid rgba(205, 158, 75, 0.08);
 }
 
 /* ─── Teal-Cyan focus ring globally ─────────────────────────────────── */
 *:focus-visible {
-  outline: 2px solid rgba(110, 148, 42, 0.5);
+  outline: 2px solid rgba(205, 158, 75, 0.5);
   outline-offset: 3px;
   border-radius: 4px;
 }

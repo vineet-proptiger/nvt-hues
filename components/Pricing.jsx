@@ -43,10 +43,10 @@ const Pricing = ({ setIsOpen }) => {
   return (
     <section
       id="pricing"
-      className="py-16 sm:py-24 px-4 md:px-8 relative overflow-hidden bg-[#fafcf7]"
+      className="py-16 sm:py-24 px-4 md:px-8 relative overflow-hidden bg-[#F4EFE3]"
     >
       {/* Background ambient lighting */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-gradient-to-b from-[#edf6e1]/70 to-transparent blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-gradient-to-b from-[#F4EFE3]/70 to-transparent blur-3xl pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         
@@ -65,9 +65,9 @@ const Pricing = ({ setIsOpen }) => {
           
           {/* Decorative Line */}
           <div className="flex items-center justify-center mt-4 mb-3">
-            <div className="w-16 h-[1px] bg-[#6E942A]"></div>
-            <div className="w-2 h-2 rounded-full bg-[#6E942A] mx-3"></div>
-            <div className="w-16 h-[1px] bg-[#6E942A]"></div>
+            <div className="w-16 h-[1px] bg-[#CD9E4B]"></div>
+            <div className="w-2 h-2 rounded-full bg-[#CD9E4B] mx-3"></div>
+            <div className="w-16 h-[1px] bg-[#CD9E4B]"></div>
           </div>
         </div>
 
@@ -81,13 +81,13 @@ const Pricing = ({ setIsOpen }) => {
               data-aos-delay={idx * 150}
               className={`w-full max-w-[360px] bg-white rounded-t-[90px] rounded-b-3xl p-8 sm:p-9 flex flex-col items-center relative transition-all duration-400 hover:-translate-y-2 ${
                 unit.isPopular
-                  ? "border-2 border-[#6E942A] shadow-[0_20px_45px_rgba(110,148,42,0.18)] hover:shadow-[0_28px_55px_rgba(110,148,42,0.25)] ring-4 ring-[#6E942A]/10"
-                  : "border border-[#dbe8cd] shadow-[0_12px_32px_rgba(48,64,23,0.06)] hover:shadow-[0_20px_42px_rgba(48,64,23,0.12)]"
+                  ? "border-2 border-[#CD9E4B] shadow-[0_20px_45px_rgba(205,158,75,0.18)] hover:shadow-[0_28px_55px_rgba(205,158,75,0.25)] ring-4 ring-[#CD9E4B]/10"
+                  : "border border-[#DFB362] shadow-[0_12px_32px_rgba(11,58,61,0.06)] hover:shadow-[0_20px_42px_rgba(11,58,61,0.12)]"
               }`}
             >
               {/* Popular Crown Tag */}
               {unit.isPopular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#6E942A] via-[#4d6f1a] to-[#6E942A] text-white text-[10.5px] font-extrabold px-5 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-md flex items-center gap-1.5 uppercase ring-2 ring-white">
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#CD9E4B] via-[#A67D37] to-[#CD9E4B] text-white text-[10.5px] font-extrabold px-5 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-md flex items-center gap-1.5 uppercase ring-2 ring-white">
                   <Sparkles size={11} className="text-yellow-300" />
                   Most Preferred Choice
                 </div>
@@ -97,14 +97,14 @@ const Pricing = ({ setIsOpen }) => {
               <div
                 className={`w-36 h-40 rounded-t-full rounded-b-2xl border flex flex-col items-center justify-center p-4 mb-6 shadow-xs transition-colors ${
                   unit.isPopular
-                    ? "bg-gradient-to-b from-[#eff8e7] via-[#f7fcf4] to-white border-[#c9e6a3]"
-                    : "bg-gradient-to-b from-[#f5f9f0] via-[#fbfdf9] to-white border-[#d8ecc3]"
+                    ? "bg-gradient-to-b from-[#F4EFE3] via-[#FFFFFF] to-white border-[#DFB362]"
+                    : "bg-gradient-to-b from-[#FFFFFF] via-[#FFFFFF] to-white border-[#DFB362]"
                 }`}
               >
                 {/* Icon */}
                 <div
                   className={`w-11 h-11 rounded-full flex items-center justify-center mb-2.5 bg-white shadow-xs border ${
-                    unit.isPopular ? "border-[#c1e298] text-[#6E942A]" : "border-[#d5e8c1] text-[#3D5915]"
+                    unit.isPopular ? "border-[#EFE4CD] text-[#CD9E4B]" : "border-[#EFE4CD] text-[#0B3A3D]"
                   }`}
                 >
                   <BedDouble size={20} strokeWidth={1.8} />
@@ -117,24 +117,24 @@ const Pricing = ({ setIsOpen }) => {
                   {unit.type}
                 </div>
 
-                <span className="text-[11px] font-bold text-[#577626] uppercase tracking-widest mt-1">
+                <span className="text-[11px] font-bold text-[#A67D37] uppercase tracking-widest mt-1">
                   {unit.subtitle}
                 </span>
               </div>
 
               {/* Size Pill */}
-              {/* <div className="mb-6 px-4 py-1 rounded-full bg-[#f4f9ee] border border-[#d6e8c0] text-[11.5px] font-bold text-[#2d4212] tracking-wide shadow-xs">
+              {/* <div className="mb-6 px-4 py-1 rounded-full bg-[#F4EFE3] border border-[#DFB362] text-[11.5px] font-bold text-[#0B3A3D] tracking-wide shadow-xs">
                 📐 Super Built-up: <span className="text-gray-900 font-extrabold">{unit.size}</span>
               </div> */}
 
               {/* Price Pedestal */}
-              <div className="text-center mb-7 w-full py-4 px-4 rounded-2xl bg-gradient-to-b from-[#f9fbf6] to-[#f0f7e8] border border-[#e1ecda]">
-                <span className="text-[10.5px] font-bold uppercase tracking-widest text-[#698444] block mb-1">
+              <div className="text-center mb-7 w-full py-4 px-4 rounded-2xl bg-gradient-to-b from-[#FFFFFF] to-[#F4EFE3] border border-[#EFE4CD]">
+                <span className="text-[10.5px] font-bold uppercase tracking-widest text-[#A67D37] block mb-1">
                   {unit.priceSub}
                 </span>
                 <div
                   className={`text-[29px] sm:text-[32px] font-extrabold leading-none ${
-                    unit.isPopular ? "text-[#5e821f]" : "text-[#2b3f12]"
+                    unit.isPopular ? "text-[#A67D37]" : "text-[#0B3A3D]"
                   }`}
                   style={{ fontFamily: F_JOST }}
                 >
@@ -150,7 +150,7 @@ const Pricing = ({ setIsOpen }) => {
                     className="flex items-center gap-3 text-[13px] text-gray-700 font-medium"
                     style={{ fontFamily: F_SANS }}
                   >
-                    <div className="w-5 h-5 rounded-full bg-[#edf7e2] flex items-center justify-center flex-shrink-0 text-[#6E942A] border border-[#bede96]">
+                    <div className="w-5 h-5 rounded-full bg-[#F4EFE3] flex items-center justify-center flex-shrink-0 text-[#CD9E4B] border border-[#EFE4CD]">
                       <Check size={12} strokeWidth={3.5} />
                     </div>
                     <span>{feature}</span>
@@ -163,8 +163,8 @@ const Pricing = ({ setIsOpen }) => {
                 onClick={() => setIsOpen(true)}
                 className={`w-full py-3.5 px-6 rounded-full text-[12.5px] font-extrabold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg cursor-pointer flex items-center justify-center gap-2 ${
                   unit.isPopular
-                    ? "bg-gradient-to-r from-[#6E942A] to-[#456318] text-white hover:brightness-110 shadow-[#6E942A]/25"
-                    : "bg-white border-2 border-[#3D5915] text-[#3D5915] hover:bg-[#3D5915] hover:text-white"
+                    ? "bg-gradient-to-r from-[#CD9E4B] to-[#A67D37] border-2 border-[#CD9E4B] text-white hover:brightness-110 shadow-[#CD9E4B]/25"
+                    : "bg-white border-2 border-[#CD9E4B] text-[#0B3A3D] hover:bg-[#0B3A3D] hover:text-white"
                 }`}
                 style={{ fontFamily: F_JOST }}
               >

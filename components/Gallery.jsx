@@ -60,7 +60,7 @@ const Gallery = ({ setIsOpen }) => {
               className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900 text-center"
               style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", margin: 0 }}
             >
-              NVT Whispering Hues GALLERY
+              A Life in Bloom by NVT GALLERY
             </h2>
           </div>
         </div>
@@ -120,19 +120,19 @@ const Gallery = ({ setIsOpen }) => {
                 fontSize: '12px',
                 fontWeight: '700',
                 letterSpacing: '0.15em',
-                color: '#3D5915',
-                border: '1px solid #95B325',
+                color: '#0B3A3D',
+                border: '1px solid #CD9E4B',
                 padding: '14px 36px',
                 background: 'transparent',
                 cursor: 'pointer',
               }}
               onMouseEnter={e => {
-                e.currentTarget.style.background = '#3D5915'
+                e.currentTarget.style.background = '#0B3A3D'
                 e.currentTarget.style.color = '#fff'
               }}
               onMouseLeave={e => {
                 e.currentTarget.style.background = 'transparent'
-                e.currentTarget.style.color = '#3D5915'
+                e.currentTarget.style.color = '#0B3A3D'
               }}
             >
               {showAll ? 'SHOW LESS' : 'VIEW ALL GALLERY'}

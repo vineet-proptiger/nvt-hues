@@ -1,8 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { logoImages } from '../../lib/images'
-import AosInit from '../../components/AosInit'
+import { logoImages } from '../../../lib/images'
+import AosInit from '../../../components/AosInit'
 
 const GOLD = 'var(--color-gold)'
 const GOLD_DARK = 'var(--color-gold-dark)'
@@ -26,17 +26,17 @@ export default function PrivacyPolicy() {
         <div className="h-0.5 w-full" style={{ background: `linear-gradient(90deg, var(--color-gold), var(--color-gold-light), var(--color-gold))` }}></div>
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
-          <Link href="/" className="flex items-center">
+          <Link href="/a-life-in-bloom-by-nvt-sarjapur" className="flex items-center">
             <style>{`
               .privacy-logo { height: 48px; width: auto; display: block; object-fit: contain; transform-origin: left center; }
               @media(max-width: 768px) {
                 .privacy-logo { height: 40px; transform-origin: left center; }
               }
             `}</style>
-            <img src={logoImages.main} alt="NVT Whispering Hues" className="privacy-logo" />
+            <img src={logoImages.main} alt="A Life in Bloom by NVT" className="privacy-logo" />
           </Link>
           <Link
-            href="/"
+            href="/a-life-in-bloom-by-nvt-sarjapur"
             className="btn-gold shadow-lg !text-[11px] !px-3 !py-2 sm:!text-sm sm:!px-6 sm:!py-3"
           >
             <span className="hidden sm:inline">BACK TO HOME</span><span className="sm:hidden">HOME</span>
@@ -72,7 +72,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <div className="flex items-center justify-center gap-2 text-white/80 text-sm" style={{ fontFamily: 'var(--font-sans)' }}>
-            <Link href="/" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
+            <Link href="/a-life-in-bloom-by-nvt-sarjapur" className="hover:text-white transition-colors" style={{ color: 'var(--color-gold)' }}>Home</Link>
             <span>›</span>
             <span>Privacy Policy</span>
           </div>
@@ -95,7 +95,7 @@ export default function PrivacyPolicy() {
             <p className="mb-6 sm:mb-8 text-sm sm:text-base" style={{ lineHeight: 1.8, color: '#444', fontFamily: 'var(--font-jost), Jost, sans-serif' }}>
               At{' '}
               <Link
-                href="/"
+                href="/a-life-in-bloom-by-nvt-sarjapur"
                 style={{ color: 'var(--color-gold-dark)', fontWeight: '600' }}
               >
                 nvtwhisperinghuesvilla.co.in
@@ -309,8 +309,8 @@ export default function PrivacyPolicy() {
       {/* ── Footer (mini) ── */}
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
-          &copy; 2026 NVT Whispering Hues. All rights reserved |{' '}
-          <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
+          &copy; 2026 A Life in Bloom by NVT. All rights reserved |{' '}
+          <Link href="/a-life-in-bloom-by-nvt-sarjapur" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>
     </main>

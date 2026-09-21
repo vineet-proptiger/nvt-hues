@@ -20,7 +20,7 @@ const Footer = () => (
           About The Developer
         </h2>
         <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-          Landmark Integrated Development — Gunjur, Bangalore
+          Landmark Integrated Development — Whitefield-Varthur Sarjapur East Bangalore
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
           <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />
@@ -39,12 +39,12 @@ const Footer = () => (
 
       <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-4 py-4 px-6 border-t border-[#222] text-center sm:text-left max-w-[1200px] mx-auto">
         <p style={{ fontSize: '13px', color: '#888', fontFamily: F_SANS }}>
-          &copy; 2026 NVT Whispering Hues. All rights reserved.
+          &copy; 2026 A Life in Bloom by NVT. All rights reserved.
         </p>
         <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
           
           <span style={{ color: '#444' }}>|</span>
-          <Link href="/privacy-policy" style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_SANS }}>
+          <Link href="/a-life-in-bloom-by-nvt-sarjapur/privacy-policy" style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_SANS }}>
             Privacy Policy
           </Link>
         </div>

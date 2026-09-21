@@ -97,13 +97,13 @@ const Hero = ({ setIsOpen }) => {
 
         @keyframes livepulse {
           0%  { box-shadow:0 0 0 0 rgba(212,175,55,0.6); }
-          70% { box-shadow:0 0 0 6px rgba(110,148,42,0); }
-          100%{ box-shadow:0 0 0 0 rgba(110,148,42,0); }
+          70% { box-shadow:0 0 0 6px rgba(205, 158, 75,0); }
+          100%{ box-shadow:0 0 0 0 rgba(205, 158, 75,0); }
         }
         @keyframes textBling {
-          0% { opacity: 0.7; text-shadow: 0 0 4px rgba(110,148,42,0.5); }
-          50% { opacity: 1; text-shadow: 0 0 14px rgba(110,148,42,1); }
-          100% { opacity: 0.7; text-shadow: 0 0 4px rgba(110,148,42,0.5); }
+          0% { opacity: 0.7; text-shadow: 0 0 4px rgba(205, 158, 75,0.5); }
+          50% { opacity: 1; text-shadow: 0 0 14px rgba(205, 158, 75,1); }
+          100% { opacity: 0.7; text-shadow: 0 0 4px rgba(205, 158, 75,0.5); }
         }
 
         @keyframes heroPriceBlink {
@@ -120,7 +120,7 @@ const Hero = ({ setIsOpen }) => {
         @keyframes heroPriceBadgeBlink {
           0%, 75% { 
             opacity: 1; 
-            box-shadow: 0 0 16px rgba(164, 220, 47, 0.5), inset 0 0 8px rgba(164, 220, 47, 0.2);
+            box-shadow: 0 0 16px rgba(205, 158, 75, 0.5), inset 0 0 8px rgba(205, 158, 75, 0.2);
           }
           76%, 100% { 
             opacity: 0; 
@@ -135,10 +135,10 @@ const Hero = ({ setIsOpen }) => {
           gap: 12px;
           vertical-align: middle;
           padding: 6px 22px 6px 16px;
-          background: radial-gradient(130% 130% at 50% 30%, #1e3e0e 0%, #102407 65%, #0a1705 100%);
-          border: 1.5px solid #a4dc2f;
+          background: radial-gradient(130% 130% at 50% 30%, #0B3A3D 0%, #062527 65%, #041A1C 100%);
+          border: 1.5px solid #DFB362;
           border-radius: 9999px;
-          box-shadow: 0 0 16px rgba(164, 220, 47, 0.5), inset 0 0 8px rgba(164, 220, 47, 0.2);
+          box-shadow: 0 0 16px rgba(205, 158, 75, 0.5), inset 0 0 8px rgba(205, 158, 75, 0.2);
           animation: heroPriceBadgeBlink 1.4s infinite;
           backdrop-filter: blur(8px);
           -webkit-backdrop-filter: blur(8px);
@@ -176,7 +176,7 @@ const Hero = ({ setIsOpen }) => {
         /* First button — white text + white border on dark hero bg */
         .hero-btn-one {
           color: #fff !important;
-          border-color: rgba(255,255,255,0.9) !important;
+          border: 1.5px solid rgba(255,255,255,0.9) !important;
           background: transparent !important;
         }
         .hero-btn-one:hover {
@@ -310,7 +310,7 @@ const Hero = ({ setIsOpen }) => {
         @media (min-width: 768px) {
           .hero-title-badge {
             display: inline-block;
-            background: rgba(20, 28, 10, 0.58);
+            background: rgba(11, 58, 61, 0.58);
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
             padding: 6px 18px;
@@ -320,7 +320,7 @@ const Hero = ({ setIsOpen }) => {
           }
           .hero-subtitle-badge {
             display: inline-block;
-            background: rgba(20, 28, 10, 0.52);
+            background: rgba(11, 58, 61, 0.52);
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
             padding: 5px 16px;
@@ -329,7 +329,7 @@ const Hero = ({ setIsOpen }) => {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
           }
           .hero-bullet-badge {
-            background: rgba(20, 28, 10, 0.52);
+            background: rgba(11, 58, 61, 0.52);
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
             padding: 6px 16px;
@@ -427,10 +427,10 @@ const Hero = ({ setIsOpen }) => {
             font-weight: 700;
             letter-spacing: 0.05em;
             text-transform: uppercase;
-            background: #edf7e2;
+            background: #F4EFE3;
             color: #2f4614;
             border: 1px solid #b2db84;
-            box-shadow: 0 2px 6px rgba(110, 148, 42, 0.12);
+            box-shadow: 0 2px 6px rgba(205, 158, 75, 0.12);
             margin-bottom: 10px;
             width: fit-content;
           }
@@ -485,9 +485,9 @@ const Hero = ({ setIsOpen }) => {
             gap: 8px !important;
             padding: 10px 10px !important;
             background: #f4f9ed !important;
-            border: 1px solid #d8ecc3 !important;
+            border: 1px solid #DFB362 !important;
             border-radius: 14px !important;
-            box-shadow: 0 2px 6px rgba(48, 64, 23, 0.04) !important;
+            box-shadow: 0 2px 6px rgba(11, 58, 61, 0.04) !important;
             width: 100% !important;
             backdrop-filter: none !important;
             -webkit-backdrop-filter: none !important;
@@ -497,11 +497,11 @@ const Hero = ({ setIsOpen }) => {
             width: 18px !important;
             height: 18px !important;
             background-color: #ffffff !important;
-            border: 1.5px solid #6E942A !important;
+            border: 1.5px solid #CD9E4B !important;
             border-radius: 50% !important;
             padding: 2.5px !important;
             flex-shrink: 0 !important;
-            stroke: #6E942A !important;
+            stroke: #CD9E4B !important;
           }
           .hero-bullet-text {
             font-size: 12px !important;
@@ -512,7 +512,7 @@ const Hero = ({ setIsOpen }) => {
           }
           /* Price Card Container */
           .hero-price-line {
-            background: linear-gradient(135deg, #f9fcf5 0%, #edf7e2 100%) !important;
+            background: linear-gradient(135deg, #f9fcf5 0%, #F4EFE3 100%) !important;
             border: 1.5px dashed #9bc868 !important;
             border-radius: 18px !important;
             padding: 12px 14px !important;
@@ -524,7 +524,7 @@ const Hero = ({ setIsOpen }) => {
             font-size: 13.5px !important;
             font-weight: 600 !important;
             color: #2c4114 !important;
-            box-shadow: 0 3px 10px rgba(110, 148, 42, 0.08) !important;
+            box-shadow: 0 3px 10px rgba(205, 158, 75, 0.08) !important;
             text-shadow: none !important;
             text-align: center !important;
           }
@@ -571,17 +571,17 @@ const Hero = ({ setIsOpen }) => {
             gap: 8px !important;
           }
           .hero-cta-row .hero-btn-one {
-            color: #304017 !important;
-            border: 1.5px solid #304017 !important;
+            color: #0B3A3D !important;
+            border: 1.5px solid #0B3A3D !important;
             background: #ffffff !important;
             box-shadow: 0 2px 6px rgba(0,0,0,0.04) !important;
           }
           .hero-cta-row > a.btn-brand,
           .hero-cta-row > button.btn-brand {
-            background: linear-gradient(135deg, #6E942A 0%, #4d6c19 100%) !important;
+            background: linear-gradient(135deg, #CD9E4B 0%, #A67D37 100%) !important;
             color: #ffffff !important;
             border: none !important;
-            box-shadow: 0 4px 14px rgba(110, 148, 42, 0.35) !important;
+            box-shadow: 0 4px 14px rgba(205, 158, 75, 0.35) !important;
           }
           .hero-rera {
             font-size: 10px !important;
@@ -601,7 +601,7 @@ const Hero = ({ setIsOpen }) => {
             <div className="desktop-img-wrapper w-full h-full">
               <Image
                 src={slide.img}
-                alt={`NVT Whispering Hues Banner ${index + 1}`}
+                alt={`A Life in Bloom by NVT Banner ${index + 1}`}
                 width={1920}
                 height={800}
                 className="hero-image desktop-hero-image"
@@ -613,7 +613,7 @@ const Hero = ({ setIsOpen }) => {
               <div className="mobile-img-wrapper w-full h-full">
                 <Image
                   src={slide.mobileImg}
-                  alt={`NVT Whispering Hues Mobile Banner ${index + 1}`}
+                  alt={`A Life in Bloom by NVT Mobile Banner ${index + 1}`}
                   width={768}
                   height={900}
                   className="hero-image mobile-hero-image"
@@ -640,14 +640,14 @@ const Hero = ({ setIsOpen }) => {
         {/* Main Heading */}
         <h1 className="hero-title">
           <span className="hero-title-badge">
-            NVT Whispering Hues
+            A Life in Bloom by NVT
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="hero-subtitle">
           <span className="hero-subtitle-badge" style={{ fontSize: '0.9em', fontWeight: 600, textTransform: 'none' }}>
-            At Gunjur, Bangalore.
+            At Whitefield-Varthur Sarjapur East Bangalore.
           </span>
         </p>
         
@@ -656,7 +656,7 @@ const Hero = ({ setIsOpen }) => {
           {[
             "Premium 4/5 BHK Luxury Villas",
             "Spread Across 70 Acres of Lush Greenery",
-            "Exclusive Pre Launch on Gunjur",
+            "Spacious homes featuring private backyards and expansive spaces",
             "Resort-Style Lifestyle with 40+ Amenities"
           ].map((text, i) => (
           <div 
@@ -668,7 +668,7 @@ const Hero = ({ setIsOpen }) => {
               gap: '10px'
             }}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #6E942A)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #CD9E4B)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
               <polyline points="20 6 9 17 4 12" />
             </svg>
             <span className="hero-bullet-text" style={{ fontFamily: 'var(--font-sans), Open Sans, sans-serif', fontSize: 'clamp(13px, 1.5vw, 17px)', fontWeight: '500', letterSpacing: '0.02em' }}>
@@ -684,7 +684,7 @@ const Hero = ({ setIsOpen }) => {
           <div className="text-white font-medium text-[13px] sm:text-[15px] tracking-wide flex flex-wrap items-center gap-x-1" style={{ fontFamily: 'var(--font-jost), Montserrat, sans-serif' }}>
             <span>Priority Allotment EOI Amount:</span>
             <span style={{ animation: 'heroPriceBlink 1.4s infinite' }} className="flex items-center gap-1 mt-0.5 sm:mt-0">
-              <strong className="text-[#6E942A] whitespace-nowrap">₹3 Lakhs</strong>
+              <strong className="text-[#CD9E4B] whitespace-nowrap">₹3 Lakhs</strong>
               <span className="text-white/90 font-normal text-[11px] sm:text-[13px] whitespace-nowrap">(3 & 4 BHK)</span>
             </span>
           </div>

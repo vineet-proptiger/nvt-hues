@@ -43,22 +43,22 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://nvtwhisperinghuesvilla.co.in'),
-  title: 'NVT Whispering Hues | Luxury 4/5 BHK Homes in Gunjur, Bangalore',
-  description: "NVT Whispering Hues — A thoughtfully planned 70-acre landmark development in Gunjur, Bangalore by NVT. Luxury 4 BHK and 5 BHK villas.",
+  title: 'A Life in Bloom by NVT | Luxury 4/5 BHK Homes in Whitefield-Varthur Sarjapur East Bangalore',
+  description: "A Life in Bloom by NVT — A thoughtfully planned 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore by NVT. Luxury 4 BHK and 5 BHK villas.",
   alternates: {
-    canonical: 'https://nvtwhisperinghuesvilla.co.in/',
+    canonical: 'https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur',
   },
   openGraph: {
-    title: 'NVT Whispering Hues | Luxury Integrated Development in Gunjur',
-    description: "Discover luxury 4/5 BHK villas at NVT Whispering Hues, an integrated 70-acre landmark development in Gunjur, Bangalore.",
-    url: 'https://nvtwhisperinghuesvilla.co.in/',
-    siteName: 'NVT Whispering Hues',
+    title: 'A Life in Bloom by NVT | Luxury Integrated Development in Whitefield-Varthur Sarjapur East Bangalore',
+    description: "Discover luxury 4/5 BHK villas at A Life in Bloom by NVT, an integrated 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore.",
+    url: 'https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur',
+    siteName: 'A Life in Bloom by NVT',
     images: [
       {
         url: '/images/hero/banner.webp',
         width: 1200,
         height: 630,
-        alt: 'NVT Whispering Hues Gunjur Bangalore',
+        alt: 'A Life in Bloom by NVT Whitefield-Varthur Sarjapur East Bangalore',
       },
     ],
     locale: 'en_IN',
@@ -66,8 +66,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NVT Whispering Hues | Luxury 4/5 BHK Homes in Gunjur',
-    description: "A thoughtfully planned 70-acre landmark development in Gunjur, Bangalore by NVT.",
+    title: 'A Life in Bloom by NVT | Luxury 4/5 BHK Homes in Whitefield-Varthur Sarjapur East Bangalore',
+    description: "A thoughtfully planned 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore by NVT.",
     images: ['/images/hero/banner.webp'],
   },
   icons: {
@@ -89,14 +89,14 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
-              "name": "NVT Whispering Hues Gunjur",
-              "url": "https://nvtwhisperinghuesvilla.co.in/",
+              "name": "A Life in Bloom by NVT Whitefield-Varthur Sarjapur East Bangalore",
+              "url": "https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur",
               "logo": "https://nvtwhisperinghuesvilla.co.in/images/logo/Logo.webp",
               "image": "https://nvtwhisperinghuesvilla.co.in/images/hero/banner.webp",
-              "description": "NVT Whispering Hues, Bangalore's premier luxury integrated development in Gunjur offering 4/5 BHK luxury villas.",
+              "description": "A Life in Bloom by NVT, Bangalore's premier luxury integrated development in Whitefield-Varthur Sarjapur East Bangalore offering 4/5 BHK luxury villas.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Gunjur",
+                "streetAddress": "Whitefield-Varthur Sarjapur East Bangalore",
                 "addressLocality": "Bangalore",
                 "addressRegion": "Karnataka",
                 "postalCode": "560109",
@@ -105,7 +105,7 @@ export default function RootLayout({ children }) {
               "telephone": "+919718344024",
               "priceRange": "₹ 3 Crore Onwards",
               "sameAs": [
-                "https://nvtwhisperinghuesvilla.co.in/"
+                "https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur"
               ]
             })
           }}

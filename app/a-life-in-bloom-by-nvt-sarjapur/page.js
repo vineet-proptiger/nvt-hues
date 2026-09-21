@@ -2,30 +2,30 @@
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
 import { Phone, MessageSquare } from 'lucide-react'
-import { galleryImages, amenityImages } from '../lib/images'
+import { galleryImages, amenityImages } from '../../lib/images'
 
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
+import Navbar from '../../components/Navbar'
+import Hero from '../../components/Hero'
 
-const Overview = dynamic(() => import('../components/Overview'), { ssr: true })
-// const Projects = dynamic(() => import('../components/Projects'), { ssr: true })
-const Highlights = dynamic(() => import('../components/Highlights'), { ssr: true })
-const Amenities = dynamic(() => import('../components/Amenities'), { ssr: true })
-const Pricing = dynamic(() => import('../components/Pricing'), { ssr: true })
-const Location = dynamic(() => import('../components/Location'), { ssr: true })
-const MasterPlan = dynamic(() => import('../components/MasterPlan'), { ssr: true })
-// const PaymentPlan = dynamic(() => import('../components/PaymentPlan'), { ssr: true })
-const AboutDeveloper = dynamic(() => import('../components/AboutDeveloper'), { ssr: true })
-const Footer = dynamic(() => import('../components/Footer'), { ssr: true })
+const Overview = dynamic(() => import('../../components/Overview'), { ssr: true })
+// const Projects = dynamic(() => import('../../components/Projects'), { ssr: true })
+const Highlights = dynamic(() => import('../../components/Highlights'), { ssr: true })
+const Amenities = dynamic(() => import('../../components/Amenities'), { ssr: true })
+const Pricing = dynamic(() => import('../../components/Pricing'), { ssr: true })
+const Location = dynamic(() => import('../../components/Location'), { ssr: true })
+const MasterPlan = dynamic(() => import('../../components/MasterPlan'), { ssr: true })
+// const PaymentPlan = dynamic(() => import('../../components/PaymentPlan'), { ssr: true })
+const AboutDeveloper = dynamic(() => import('../../components/AboutDeveloper'), { ssr: true })
+const Footer = dynamic(() => import('../../components/Footer'), { ssr: true })
 
-const Gallery = dynamic(() => import('../components/Gallery'), { ssr: false })
-// const VirtualTour = dynamic(() => import('../components/VirtualTour'), { ssr: false })
-const CarouselSection = dynamic(() => import('../components/CarouselSection'), { ssr: false })
-// const ExclusiveAmenities = dynamic(() => import('../components/ExclusiveAmenities'), { ssr: false })
-// const Sustainability = dynamic(() => import('../components/Sustainability'), { ssr: false })
-// const JapaneseExcellence = dynamic(() => import('../components/JapaneseExcellence'), { ssr: false })
-const EnquireModal = dynamic(() => import('../components/EnquireModal'), { ssr: false })
-const AosInit = dynamic(() => import('../components/AosInit'), { ssr: false })
+const Gallery = dynamic(() => import('../../components/Gallery'), { ssr: false })
+// const VirtualTour = dynamic(() => import('../../components/VirtualTour'), { ssr: false })
+const CarouselSection = dynamic(() => import('../../components/CarouselSection'), { ssr: false })
+// const ExclusiveAmenities = dynamic(() => import('../../components/ExclusiveAmenities'), { ssr: false })
+// const Sustainability = dynamic(() => import('../../components/Sustainability'), { ssr: false })
+// const JapaneseExcellence = dynamic(() => import('../../components/JapaneseExcellence'), { ssr: false })
+const EnquireModal = dynamic(() => import('../../components/EnquireModal'), { ssr: false })
+const AosInit = dynamic(() => import('../../components/AosInit'), { ssr: false })
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -67,7 +67,7 @@ export default function Home() {
 
       {/* Floating Vertical Enquire Tab — Desktop only */}
       <div 
-        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-bold tracking-[0.4px] whitespace-nowrap bg-[#3D5915] items-center justify-center gap-[6px] hover:bg-[#6E942A] hover:text-white transition-colors duration-300"
+        className="hidden lg:flex fixed z-50 cursor-pointer text-white uppercase text-[14px] leading-[20px] font-bold tracking-[0.4px] whitespace-nowrap bg-[#0B3A3D] items-center justify-center gap-[6px] hover:bg-[#CD9E4B] hover:text-white transition-colors duration-300"
         style={{
           top: '50%',
           right: '10px',
@@ -75,7 +75,7 @@ export default function Home() {
           transform: 'translateY(-50%) rotate(180deg)',
           borderRadius: '50px',
           padding: '18px 11px',
-          boxShadow: '0 0 12px 0 rgba(0,0,0,0.15)'
+          boxShadow: '0 0 12px 0 rgba(0,0,0,0.15)', border: '1.5px solid #CD9E4B'
         }}
         onClick={() => setIsOpen(true)}
       >
@@ -123,7 +123,7 @@ export default function Home() {
       <div className="fixed bottom-0 left-0 right-0 z-[100] flex shadow-[0_-4px_15px_rgba(0,0,0,0.1)] md:hidden">
         {/* WhatsApp - Left */}
         <a 
-          href="https://wa.me/919560582493?text=Hi%2C%20I%20am%20interested%20in%20NVT%20Whispering%20Hues" 
+          href="https://wa.me/919560582493?text=Hi%2C%20I%20am%20interested%20in%20A%20Life%20in%20Bloom%20by%20NVT" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex-1 bg-[#25D366] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#20bd5a] transition-colors"
@@ -137,7 +137,7 @@ export default function Home() {
         {/* Enquire Now - Middle */}
         <button 
           onClick={() => setIsOpen(true)} 
-          className="flex-1 bg-[#6E942A] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:brightness-105 transition-all"
+          className="flex-1 bg-[#CD9E4B] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:brightness-105 transition-all"
         >
           <MessageSquare size={20} className="text-white animate-gentle-pulse" />
           <span className="text-[12px] font-bold tracking-wider uppercase">Enquire Now</span>
@@ -146,7 +146,7 @@ export default function Home() {
         {/* Call Now - Right */}
         <a 
           href="tel:+919718344024" 
-          className="flex-1 bg-[#3D5915] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#2C420D] transition-colors"
+          className="flex-1 bg-[#0B3A3D] text-white py-2.5 flex flex-col items-center justify-center gap-1 hover:bg-[#08282A] transition-colors"
         >
           <Phone size={20} className="text-white animate-phone-ring" />
           <span className="text-[12px] font-medium tracking-wide">Call Now</span>
