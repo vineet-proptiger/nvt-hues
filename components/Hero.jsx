@@ -656,7 +656,7 @@ const Hero = ({ setIsOpen }) => {
           {[
             "Premium 4/5 BHK Luxury Villas",
             "Spread Across 70 Acres of Lush Greenery",
-            "Spacious homes featuring private backyards and expansive spaces",
+            "Spacious homes with private backyards",
             "Resort-Style Lifestyle with 40+ Amenities"
           ].map((text, i) => (
           <div 
