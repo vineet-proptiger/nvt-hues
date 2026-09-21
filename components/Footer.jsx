@@ -13,7 +13,7 @@ const Footer = () => (
     <div className="relative z-10">
       <div className="max-w-[860px] mx-auto px-2 sm:px-6 pt-14 pb-8 text-center">
         <h2 
-          className="text-[21px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wide mb-2 text-white whitespace-nowrap sm:whitespace-normal" 
+          className="text-[18px] sm:text-[24px] md:text-[28px] font-semibold leading-tight uppercase tracking-wide mb-2 text-white whitespace-nowrap sm:whitespace-normal" 
           style={{ fontFamily: F_JOST }} 
           data-aos="fade-in"
         >
@@ -39,7 +39,7 @@ const Footer = () => (
 
       <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-4 py-4 px-6 border-t border-[#222] text-center sm:text-left max-w-[1200px] mx-auto">
         <p style={{ fontSize: '13px', color: '#888', fontFamily: F_SANS }}>
-          &copy; 2026 A Life in Bloom by NVT. All rights reserved.
+          &copy; 2026 A Life in Bloom Villa by NVT. All rights reserved.
         </p>
         <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
           

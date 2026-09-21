@@ -561,7 +561,7 @@ const Navbar = ({ setIsOpen }) => {
             
             <li className="navbar-logo">
               <a href="#" className="navbar-brand">
-                <img src={logoImages.main} alt="A Life in Bloom by NVT" className="nav-logo" />
+                <img src={logoImages.main} alt="A Life in Bloom Villa by NVT" className="nav-logo" />
               </a>
             </li>
             

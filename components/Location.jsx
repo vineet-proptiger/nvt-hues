@@ -29,7 +29,7 @@ const Location = () => {
         {/* Section Header */}
         <div style={{ marginBottom: '50px', textAlign: 'center' }} data-aos="fade-down" data-aos-duration="1000">
            <h2
-             className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-[#CD9E4B]"
+             className="text-[18px] sm:text-[24px] md:text-[28px] font-semibold leading-tight uppercase tracking-wider text-[#CD9E4B]"
              style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", marginBottom: '12px' }}
            >
              LOCATION ADVANTAGES
@@ -60,7 +60,7 @@ const Location = () => {
                     <span>SEAMLESS CONNECTIVITY</span>
                   </h3>
                   <span className="text-[11px] font-bold text-[#0B3A3D] bg-[#F4EFE3] px-2.5 py-0.5 rounded-full border border-[#c2e29c] whitespace-nowrap shrink-0 inline-flex items-center gap-1 shadow-2xs">
-                    📍 Origin: A Life in Bloom by NVT
+                    📍 Origin: A Life in Bloom Villa by NVT
                   </span>
                 </div>
 

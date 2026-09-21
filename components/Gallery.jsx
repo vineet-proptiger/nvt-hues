@@ -57,10 +57,10 @@ const Gallery = ({ setIsOpen }) => {
         <div className="flex flex-col items-center justify-center mb-10" data-aos="fade-down" data-aos-duration="1000">
           <div className="flex items-center justify-center">
             <h2
-              className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900 text-center"
+              className="text-[18px] sm:text-[24px] md:text-[28px] font-semibold leading-tight uppercase tracking-wider text-gray-900 text-center"
               style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif", margin: 0 }}
             >
-              A Life in Bloom by NVT GALLERY
+              A Life in Bloom Villa by NVT GALLERY
             </h2>
           </div>
         </div>

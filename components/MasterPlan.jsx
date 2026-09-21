@@ -38,7 +38,7 @@ const MasterPlan = ({ setIsOpen }) => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="mb-12 text-center" data-aos="fade-up" data-aos-duration="1000">
           <h2
-            className="text-[22px] sm:text-[28px] md:text-[36px] font-semibold leading-tight uppercase tracking-wider text-gray-900 mb-4"
+            className="text-[18px] sm:text-[24px] md:text-[28px] font-semibold leading-tight uppercase tracking-wider text-gray-900 mb-4"
             style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}
           >
             Site & Floor Plans
@@ -200,7 +200,7 @@ const MasterPlan = ({ setIsOpen }) => {
               className="mt-3 text-center text-white/80 text-xs md:text-sm tracking-wide font-medium"
               style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}
             >
-              A Life in Bloom by NVT — Master Plan Layout
+              A Life in Bloom Villa by NVT — Master Plan Layout
             </div>
           </div>
         </div>

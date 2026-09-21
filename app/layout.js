@@ -43,22 +43,22 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://nvtwhisperinghuesvilla.co.in'),
-  title: 'A Life in Bloom by NVT | Luxury 4/5 BHK Homes in Whitefield-Varthur Sarjapur East Bangalore',
-  description: "A Life in Bloom by NVT — A thoughtfully planned 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore by NVT. Luxury 4 BHK and 5 BHK villas.",
+  title: 'A Life in Bloom Villa by NVT | Luxury 4/5 BHK Homes in Whitefield-Varthur Sarjapur East Bangalore',
+  description: "A Life in Bloom Villa by NVT — A thoughtfully planned 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore by NVT. Luxury 4 BHK and 5 BHK villas.",
   alternates: {
     canonical: 'https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur',
   },
   openGraph: {
-    title: 'A Life in Bloom by NVT | Luxury Integrated Development in Whitefield-Varthur Sarjapur East Bangalore',
-    description: "Discover luxury 4/5 BHK villas at A Life in Bloom by NVT, an integrated 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore.",
+    title: 'A Life in Bloom Villa by NVT | Luxury Integrated Development in Whitefield-Varthur Sarjapur East Bangalore',
+    description: "Discover luxury 4/5 BHK villas at A Life in Bloom Villa by NVT, an integrated 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore.",
     url: 'https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur',
-    siteName: 'A Life in Bloom by NVT',
+    siteName: 'A Life in Bloom Villa by NVT',
     images: [
       {
         url: '/images/hero/banner.webp',
         width: 1200,
         height: 630,
-        alt: 'A Life in Bloom by NVT Whitefield-Varthur Sarjapur East Bangalore',
+        alt: 'A Life in Bloom Villa by NVT Whitefield-Varthur Sarjapur East Bangalore',
       },
     ],
     locale: 'en_IN',
@@ -66,7 +66,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'A Life in Bloom by NVT | Luxury 4/5 BHK Homes in Whitefield-Varthur Sarjapur East Bangalore',
+    title: 'A Life in Bloom Villa by NVT | Luxury 4/5 BHK Homes in Whitefield-Varthur Sarjapur East Bangalore',
     description: "A thoughtfully planned 70-acre landmark development in Whitefield-Varthur Sarjapur East Bangalore by NVT.",
     images: ['/images/hero/banner.webp'],
   },
@@ -89,11 +89,11 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "RealEstateAgent",
-              "name": "A Life in Bloom by NVT Whitefield-Varthur Sarjapur East Bangalore",
+              "name": "A Life in Bloom Villa by NVT Whitefield-Varthur Sarjapur East Bangalore",
               "url": "https://nvtwhisperinghuesvilla.co.in/a-life-in-bloom-by-nvt-sarjapur",
               "logo": "https://nvtwhisperinghuesvilla.co.in/images/logo/Logo.webp",
               "image": "https://nvtwhisperinghuesvilla.co.in/images/hero/banner.webp",
-              "description": "A Life in Bloom by NVT, Bangalore's premier luxury integrated development in Whitefield-Varthur Sarjapur East Bangalore offering 4/5 BHK luxury villas.",
+              "description": "A Life in Bloom Villa by NVT, Bangalore's premier luxury integrated development in Whitefield-Varthur Sarjapur East Bangalore offering 4/5 BHK luxury villas.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Whitefield-Varthur Sarjapur East Bangalore",

@@ -14,7 +14,7 @@
 @import 'aos/dist/aos.css';
 
 /* ═══════════════════════════════════════════════════════════════
-   THEME VARIABLES — A Life in Bloom by NVT Whitefield-Varthur Sarjapur East Bangalore Theme
+   THEME VARIABLES — A Life in Bloom Villa by NVT Whitefield-Varthur Sarjapur East Bangalore Theme
    ═══════════════════════════════════════════════════════════════ */
 :root {
   /* ── Brand Leaf Green Theme (NVT Logo) ── */
@@ -547,7 +547,7 @@
 
   /* ══ SECTION TITLE ══ */
   .section-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--color-text);
     font-family: var(--font-jost), 'Montserrat', sans-serif;

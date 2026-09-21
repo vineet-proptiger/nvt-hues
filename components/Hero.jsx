@@ -58,7 +58,7 @@ const Hero = ({ setIsOpen }) => {
         /* Main title */
         .hero-title {
           font-family: var(--font-jost), Montserrat, sans-serif;
-          font-size: clamp(20px, 3vw, 40px);
+          font-size: clamp(18px, 2.5vw, 32px);
           font-weight: 800;
           color: #fff;
           text-transform: uppercase;
@@ -451,9 +451,9 @@ const Hero = ({ setIsOpen }) => {
             display: none !important;
           }
           .hero-title {
-            font-size: clamp(21px, 5.8vw, 23px) !important;
+            font-size: clamp(18px, 5vw, 21px) !important;
             font-weight: 800 !important;
-            color: #243810 !important;
+            color: #0B3A3D !important;
             text-shadow: none !important;
             margin: 0 0 4px !important;
             line-height: 1.2 !important;
@@ -601,7 +601,7 @@ const Hero = ({ setIsOpen }) => {
             <div className="desktop-img-wrapper w-full h-full">
               <Image
                 src={slide.img}
-                alt={`A Life in Bloom by NVT Banner ${index + 1}`}
+                alt={`A Life in Bloom Villa by NVT Banner ${index + 1}`}
                 width={1920}
                 height={800}
                 className="hero-image desktop-hero-image"
@@ -613,7 +613,7 @@ const Hero = ({ setIsOpen }) => {
               <div className="mobile-img-wrapper w-full h-full">
                 <Image
                   src={slide.mobileImg}
-                  alt={`A Life in Bloom by NVT Mobile Banner ${index + 1}`}
+                  alt={`A Life in Bloom Villa by NVT Mobile Banner ${index + 1}`}
                   width={768}
                   height={900}
                   className="hero-image mobile-hero-image"
@@ -640,7 +640,7 @@ const Hero = ({ setIsOpen }) => {
         {/* Main Heading */}
         <h1 className="hero-title">
           <span className="hero-title-badge">
-            A Life in Bloom by NVT
+            A Life in Bloom Villa by NVT
           </span>
         </h1>
 
