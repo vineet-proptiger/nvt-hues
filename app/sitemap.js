@@ -2,10 +2,16 @@ export default function sitemap() {
   const baseUrl = 'https://nvtwhisperinghuesvilla.co.in'
   return [
     {
-      url: `${baseUrl}/a-life-in-bloom-by-nvt-sarjapur`,
+      url: `${baseUrl}/`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
+    },
+    {
+      url: `${baseUrl}/a-life-in-bloom-by-nvt-sarjapur`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/a-life-in-bloom-by-nvt-sarjapur/privacy-policy`,
