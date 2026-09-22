@@ -703,7 +703,7 @@ const Hero = ({ setIsOpen }) => {
               className="hero-price-leaf" 
             />
             <span className="hero-price-amt">
-              ₹ 3.38 Cr*
+              ₹ 6 Cr*
             </span>
           </span>
         </p>

@@ -12,7 +12,7 @@ const units = [
     subtitle: "LUXURY VILLA",
     tagline: "Contemporary Family Living",
     size: "1,925 Sq. Ft.",
-    price: "₹ 3.38 Cr*",
+    price: "₹ 6 Cr*",
     priceSub: "Starting At",
     btnText: "GET DETAILS",
     features: [
