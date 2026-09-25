@@ -655,7 +655,7 @@ const Hero = ({ setIsOpen }) => {
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
             "Premium 4/5 BHK Luxury Villas",
-            "Spread Across 70 Acres of Lush Greenery",
+            "Spread Across 10.52 Acres of Lush Greenery",
             "Spacious homes with private backyards",
             "Resort-Style Lifestyle with 40+ Amenities"
           ].map((text, i) => (
