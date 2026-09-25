@@ -18,7 +18,7 @@ const units = [
     features: [
       "Unlock Pricing & Floor Plans",
       "Attractive Payment Plan",
-      "70 Acres Land Parcel",
+      "10.52 Acers Land Parcel",
     ],
     isPopular: false,
   },
@@ -33,7 +33,7 @@ const units = [
     features: [
       "Unlock Pricing & Floor Plans",
       "Attractive Payment Plan",
-      "70 Acres Land Parcel",
+      "10.52 Acers Land Parcel",
     ],
     isPopular: true,
   }
