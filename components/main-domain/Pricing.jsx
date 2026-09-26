@@ -9,6 +9,7 @@ const F_JOST = "var(--font-jost), Montserrat, sans-serif";
 const units = [
   {
     type: "4 BHK",
+    soldOut: true,
     subtitle: "LUXURY VILLA",
     tagline: "Contemporary Family Living",
     size: "1,925 Sq. Ft.",
@@ -27,8 +28,8 @@ const units = [
     subtitle: "PALATIAL VILLA",
     tagline: "Grandeur & Elite Space",
     size: "2,520 Sq. Ft.",
-    price: "Ask For Price",
-    priceSub: "Price on Request",
+    price: "₹ 6.5 Cr*",
+    priceSub: "Starting At",
     btnText: "GET DETAILS",
     features: [
       "Unlock Pricing & Floor Plans",
@@ -93,6 +94,11 @@ const Pricing = ({ setIsOpen }) => {
                 </div>
               )}
 
+              {unit.soldOut && (
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600/90 backdrop-blur-sm text-white text-[28px] md:text-[34px] font-black px-6 py-2 border-4 border-red-700/50 shadow-2xl z-30 tracking-widest uppercase transform -rotate-12 pointer-events-none w-max">
+                  SOLD OUT
+                </div>
+              )}
               {/* Inner Concentric Arch Portal */}
               <div
                 className={`w-36 h-40 rounded-t-full rounded-b-2xl border flex flex-col items-center justify-center p-4 mb-6 shadow-xs transition-colors ${
