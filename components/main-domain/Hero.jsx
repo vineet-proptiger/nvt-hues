@@ -647,7 +647,7 @@ const Hero = ({ setIsOpen }) => {
         {/* Subtitle */}
         <p className="hero-subtitle">
           <span className="hero-subtitle-badge" style={{ fontSize: '0.9em', fontWeight: 600, textTransform: 'none' }}>
-            At Gunjur, Bangalore.
+            At Gunjur, Sarjapur Bangalore.
           </span>
         </p>
         

@@ -48,7 +48,7 @@ const Overview = ({ setIsOpen }) => {
           <div className="w-2 h-2 rounded-full bg-[#CD9E4B] mx-3"></div>
           <div className="w-16 h-[1px] bg-[#CD9E4B]"></div>
         </div>
-        <h3 className="text-[16px] sm:text-[18px] md:text-[22px] font-medium tracking-wide text-gray-600" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Premium Villas in Gunjur, Bangalore</h3>
+        <h3 className="text-[16px] sm:text-[18px] md:text-[22px] font-medium tracking-wide text-gray-600" style={{ fontFamily: "var(--font-jost), Montserrat, sans-serif" }}>Premium Villas in Gunjur, Sarjapur Bangalore</h3>
       </div>
 
       <div className="flex flex-col lg:flex-row items-stretch gap-6 lg:gap-8">
